@@ -318,3 +318,51 @@ td {
   aspect-ratio: 3/2;
   width: 200px;
 }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  body {
+    background-position: right;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  .container {
+    padding: 15px 0px;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  aside {
+    position: static;
+    height: auto;
+    z-index: 1;
+  }
+
+  .asideContainer {
+    height: auto;
+  }
+
+  .visiMisi h1 {
+    text-align: left;
+  }
+
+  .cardContainer h3 {
+    display: block;
+  }
+
+  .images {
+    width: 100%;
+  }
+
+  .images img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .mainGrid {
+    grid-template-columns: 1fr;
+  }
+}
