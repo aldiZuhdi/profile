@@ -322,7 +322,7 @@ td {
 /* Responsive */
 @media screen and (max-width: 768px) {
   body {
-    background-position: right;
+    background-position: left;
   }
   h1 {
     text-align: center;
